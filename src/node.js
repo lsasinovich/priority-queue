@@ -82,15 +82,12 @@ class Node {
 
 			this.parent.parent = this;
 			this.parent = parent.parent;
-			
-			
-			
-			
-
+			return this;
 		}
 		
 	}
 
-}
+};
+
 
 module.exports = Node;
