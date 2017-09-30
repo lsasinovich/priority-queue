@@ -20,6 +20,7 @@ class PriorityQueue {
 
 	size() {
 		return this.heap.size();
+
 	}
 
 	isEmpty() {
